@@ -57,12 +57,6 @@ mongoose
     app.listen(PORT, () => {
       console.log(`Server is running at ${PORT}`);
     });
-    // ONLY ADD DATA ONE TIME
-    // AffiliateStat.insertMany(dataAffiliateStat);
-    // OverallStat.insertMany(dataOverallStat);
-    // Transcation.insertMany(dataTransaction);
-    // Product.insertMany(dataProduct);
-    // ProductStat.insertMany(dataProductStat);
-    // User.insertMany(dataUser);
+
   })
   .catch((error) => console.log(`${error} did not connect`));
